@@ -293,3 +293,13 @@ tmux_conf_copy_to_os_clipboard=false
 
 # move status line to top
 #set -g status-position top
+
+# bind prefix to "C-\" {
+set -gu prefix2
+unbind C-a
+set-option -g prefix "C-\\"
+# }
+
+unbind Space
+bind -r BSpace previous-window # select previous window
+bind -r Space next-window     # select next window
