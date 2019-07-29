@@ -304,3 +304,7 @@ set-option -g prefix "C-\\"
 unbind Space
 bind -r BSpace previous-window # select previous window
 bind -r Space next-window     # select next window
+
+# move windows
+bind-key < swap-window -t -1
+bind-key > swap-window -t +1
