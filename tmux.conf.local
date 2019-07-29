@@ -308,3 +308,10 @@ bind -r Space next-window     # select next window
 # move windows
 bind-key < swap-window -t -1
 bind-key > swap-window -t +1
+
+# backup and restore sessions
+set -g @continuum-boot 'on'
+set -g @continuum-boot-options 'iterm'
+set -g @continuum-restore 'on'
+set -g @resurrect-save 'S'
+set -g @resurrect-restore 'R'
