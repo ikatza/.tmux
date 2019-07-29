@@ -321,3 +321,12 @@ set -g @resurrect-restore 'R'
 set -g @sidebar-tree 'v'
 set -g @sidebar-tree-focus 'b'
 set -g @sidebar-tree-command 'tree -C'
+
+# Logging settings
+# Additionally, on OsX do: brew install ansifilter
+# start/stop logging: prefix + shift + p
+# textual screenshot: prefix + alt + p
+# Save complete pane history: prefix + alt + shift + p
+set -g @logging-path '~/.tmux/session-logs'
+set -g @screen-capture-path '~/.tmux/session-logs'
+set -g @save-complete-history-path '~/.tmux/session-logs'
