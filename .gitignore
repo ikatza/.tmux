@@ -1,0 +1,3 @@
+tmux/sidebar
+tmux/plugins/*
+!tmux/plugins/tpm
