@@ -315,3 +315,9 @@ set -g @continuum-boot-options 'iterm'
 set -g @continuum-restore 'on'
 set -g @resurrect-save 'S'
 set -g @resurrect-restore 'R'
+
+# sidebar settings
+# set -g @sidebar-tree-command 'ls -1' # doesn't work
+set -g @sidebar-tree 'v'
+set -g @sidebar-tree-focus 'b'
+set -g @sidebar-tree-command 'tree -C'
