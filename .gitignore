@@ -1,4 +1,5 @@
 tmux/sidebar
-tmux/resurrect
+tmux/resurrect/*
+!tmux/resurrect/.gitkeep
 tmux/plugins/*
 !tmux/plugins/tpm
