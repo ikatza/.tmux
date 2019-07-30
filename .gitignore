@@ -1,3 +1,4 @@
 tmux/sidebar
+tmux/resurrect
 tmux/plugins/*
 !tmux/plugins/tpm
