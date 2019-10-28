@@ -1,6 +1,30 @@
 .tmux
 =====
 
+My local changes to the original repo. Note that you need to
+
+`git clone --recursive`
+
+to clone this repository with the dependent submodule, or
+
+`git submodule update --init --recursive`
+
+if you have already pull it and need to also pull the submodule.
+
+Then checkout to the `local` branch and run `./setup.sh`
+
+this will make sim links of the configuration files and the folder to the home folder.
+
+My prefix is set to:
+`Ctrl + \ `
+
+Why? Because, to my knowledge, it doesn't collide with anything in emacs.
+
+Also, I have remaped the behaviour of return to act as Ctrl, thus enabling me to hit prefix with a single hand.
+
+
+----------------------------------------------------------
+
 Self-contained, pretty and versatile `.tmux.conf` configuration file.
 
 ![Screenshot](https://cloud.githubusercontent.com/assets/553208/19740585/85596a5a-9bbf-11e6-8aa1-7c8d9829c008.gif)
