@@ -313,6 +313,7 @@ bind-key > swap-window -t +1
 set -g @continuum-boot 'on'
 set -g @continuum-boot-options 'iterm'
 set -g @continuum-restore 'on'
+set -g @continuum-save-interval '15'
 set -g @resurrect-save 'S'
 set -g @resurrect-restore 'R'
 
@@ -320,7 +321,7 @@ set -g @resurrect-restore 'R'
 # set -g @sidebar-tree-command 'ls -1' # doesn't work
 set -g @sidebar-tree 'v'
 set -g @sidebar-tree-focus 'b'
-set -g @sidebar-tree-command 'tree -C'
+set -g @sidebar-tree-command 'tree -C' # colorize the tree directory
 
 # Logging settings
 # Additionally, on OsX do: brew install ansifilter
