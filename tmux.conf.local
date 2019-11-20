@@ -331,3 +331,5 @@ set -g @sidebar-tree-command 'tree -C' # colorize the tree directory
 set -g @logging-path '~/.tmux/session-logs'
 set -g @screen-capture-path '~/.tmux/session-logs'
 set -g @save-complete-history-path '~/.tmux/session-logs'
+
+bind-key Y run-shell "eval $(tmux show-env -s | grep -e '^SSH_' -e '^KRB5' -e DISPLAY)"
