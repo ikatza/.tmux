@@ -316,6 +316,8 @@ set -g @continuum-restore 'on'
 set -g @continuum-save-interval '15'
 set -g @resurrect-save 'S'
 set -g @resurrect-restore 'R'
+resurrect_dir='~/.tmux/resurrect/$HOSTNAME'
+set -g @resurrect-dir $resurrect_dir
 
 # sidebar settings
 # set -g @sidebar-tree-command 'ls -1' # doesn't work
